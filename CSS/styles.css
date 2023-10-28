@@ -145,6 +145,13 @@ img {
 .section-hero {
   padding: 188px 0;
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1699228800&Signature=IsnzFHv-TPKoQQ2xhLdde2Il1W2Iduu523DzS5H9~5H~3Ze14CD65mJDY51yh4ZiIED3~V1u2fUSY61S6y43WIrmmq32nAjfgrwsjlN1suwG40wW~uL~XFI63uVkdc2Rql5crbPEmMGOx5n6oB68LfQGk-ed34lcC595tEwiWAwkZU33Cw-BTG-mv5BdtF0viN1PQi0-xlOnseqgwwPjoPPylC-c5Q6Jb-401tUlBBHMka5na9aaPfBowaZ0sCsR1iar8U9Ck6H2q7pEFg6jwV9-kJCd-3htjmVzpu3tfm6onzLWnXevQbBwPRsLvWdmBZ3pW3G2Bbck2WSZM7eo2g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .box-hero {
@@ -268,6 +275,33 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  margin-bottom: 8px;
+}
+
+.team-list-icons {
+  display: flex;
+  gap: 24px;
+
+}
+
+.list-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.icons-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  fill: #f4f4fd;
 }
 
 /* -----Section-4----- */
@@ -317,6 +351,7 @@ img {
 .page-bottom {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: flex;
 }
 
 .page-bottom-logo {
@@ -342,4 +377,18 @@ img {
   font-size: 16px;
   line-height: 1.45;
   color: #f4f4fd;
+}
+
+.page-bottom-social {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.17;
+letter-spacing: 0.03em;
+padding-bottom: 24px;
+color: #ffffff;
+}
+
+.bottom-box {
+  display: flex;
+  gap: 100px;
 }
