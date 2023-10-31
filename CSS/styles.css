@@ -186,9 +186,8 @@ img {
   text-align: center;
   color: #ffffff;
 }
-
+/* button */
 .knob {
-  /* button*/
   display: block;
   min-width: 169px;
   height: 56px;
